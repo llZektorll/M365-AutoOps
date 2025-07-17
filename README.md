@@ -24,11 +24,13 @@ This repository aims to provide reusable, secure, and scalable tools for IT, eng
 ---
 
 ## 📁 Repository Structure
-/Scripts          # Main scripts and PowerShell modules
-/Functions        # Reusable modular functions
-/Reports          # Sample generated reports
-/Docs             # Documentation and usage examples
-/Tests            # Automated tests with Pester
+| Folder     | Description                          |
+|------------|--------------------------------------|
+| /Scripts  | Main scripts and PowerShell modules  |
+| /Functions| Reusable modular functions           |
+| /Reports  | Sample generated reports             |
+| /Docs     | Documentation and usage examples     |
+| /Tests    | Automated tests with Pester          |
 
 ---
 
@@ -36,6 +38,9 @@ This repository aims to provide reusable, secure, and scalable tools for IT, eng
 ```powershell
 # Clone this repository
 git clone https://github.com/llZektorll/M365-AutoOps.git
+
+#Enable script execution
+set-executionpolicy Unrestricted
 ```
 
 ---
