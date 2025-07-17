@@ -36,12 +36,6 @@ This repository aims to provide reusable, secure, and scalable tools for IT, eng
 ```powershell
 # Clone this repository
 git clone https://github.com/llZektorll/M365-AutoOps.git
-
-# Import functions in PowerShell
-Import-Module .\Scripts\M365-AutoOps.psm1
-
-# Run a sample script
-.\Scripts\Get-M365UserReport.ps1
 ```
 
 ---
