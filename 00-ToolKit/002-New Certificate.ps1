@@ -14,23 +14,19 @@
 #>
 
 #region Module Imports
-Import-Module "C:\M365-AutoOps\M365 Auto Ops\M365AutoOps.psm1"
+Import-Module "C:\M365AutoOps\M365 Auto Ops\M365AutoOps.psm1"
 #endregion
 #region Parameters
 
-param (
-    [Parameter(Mandatory = $True)]
-    [string]$Message
-)
 #endregion
 #region Global Variables
 $script:Source = $MyInvocation.MyCommand.Path
 #endregion
 
 #region Variables
-$Certificate_Name = 'M365 Auto Ops Certificate'
+$Certificate_Name = 'M365 Auto Ops Certificate - Licensing and Reporting'
 $Certificate_Description = 'M365 Auto Ops certificate for signing scripts.'
-$Certificate_File = 'M365AutoOps_Certificate.cer'
+$Certificate_File = 'M365AutoOps_Certificate_Licensing.cer'
 $Certificate_Life = 5 # Certificate valid for X years
 
 #Export

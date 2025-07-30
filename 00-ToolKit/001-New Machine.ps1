@@ -14,7 +14,7 @@
 #>
 
 #region Module Imports
-Import-Module "C:\M365-AutoOps\M365 Auto Ops\M365AutoOps.psm1"
+Import-Module "C:\M365AutoOps\M365 Auto Ops\M365AutoOps.psm1"
 #endregion
 
 #region Global Variables
